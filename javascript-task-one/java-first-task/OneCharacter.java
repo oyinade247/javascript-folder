@@ -1,5 +1,5 @@
 
-public class CharacterString{
+public class OneCharacter{
 	public static void main(String [] args){
 
 

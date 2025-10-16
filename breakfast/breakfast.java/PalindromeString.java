@@ -1,17 +1,17 @@
 public class PalindromeString{
 	public static void main(String [] args){
 	
-String name = "oo";
+String name = "oyin";
 String store = " ";
-char letters = '\u0000';
+
+String letters = "";
 
 		for(int count = name.length() - 1 ; count >= 0; count--){
-			letters = name.charAt(count);
+			letters += String.valueOf(name.charAt(count));
 		}
 
-		String convertedChar = String.valueOf(letters);
-
-		if(name.equals (convertedChar)){
+		
+		if(name.equals (letters)){
 			System.out.print("It is a palindrome");
 		}
 		else{
