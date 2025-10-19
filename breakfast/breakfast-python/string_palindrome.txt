@@ -1,0 +1,6 @@
+number = "1234"
+
+reversed = ""
+for char in numbers:
+	reversed = char + reversed
+print(reversed)

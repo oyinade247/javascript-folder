@@ -4,15 +4,14 @@ public class Divisors{
 	int number = 10;
 	int divisor = 2;
 	
-	while(number > 1){
+
+	while(divisor <= number){
 		if(number % divisor == 0){
-		number = number / divisor;
-	
+			System.out.println(divisor);
 		}
 		else{
 			divisor++;
 		}
-		System.out.println(divisor);
 	}
 
 	}
