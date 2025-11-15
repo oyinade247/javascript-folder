@@ -35,6 +35,9 @@ public class Crytography{
 
 	System.out.print(Arrays.toString(encryptedNumber));
 
+
+	
+	
 	
 	}
 

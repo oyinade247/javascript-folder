@@ -9,5 +9,5 @@ let sum = 0;
 		Math.trunc(number /= 10);	
 		
 	}
-	System.out.print(sum);
+	console.log(sum);
 
